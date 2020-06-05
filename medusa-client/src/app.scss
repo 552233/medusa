@@ -1,0 +1,70 @@
+.layout {
+    background: #f5f7f9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    border-radius: 4px;
+    overflow: hidden;
+}
+.ivu-layout {
+    height: 100%;
+}
+.bg-layout {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    height: 110%;
+    width: 110%;
+    overflow: hidden;
+    img {
+        height: 100%;
+        width: 100%;  
+        filter: blur(10px);
+        overflow: hidden;
+    }
+}
+.content-layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+.app-card {
+    min-height: 600px;
+}
+.chat-split{
+    height: 600px;
+    border: 1px solid #dcdee2;
+}
+.chat-split-pane{
+    padding: 10px;
+}
+.chat-split-pane.no-padding{
+    height: 600px;
+    padding: 0;
+}
+.chat-textarea {
+    height: 100%;
+}
+.chat-txt {
+    height: 100%;
+    textarea.ivu-input {
+        height: 100%;
+    }
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background: rgba(0,0,0,0.02);
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.04);
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
